@@ -1,0 +1,51 @@
+body {
+    font-family: 'Old Standard TT', serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    flex: 1; /* Expand to fill remaining space */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  header {
+    background-color: #252422;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: goldenrod;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 0;
+
+  }
+  
