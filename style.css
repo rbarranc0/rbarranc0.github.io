@@ -2,6 +2,7 @@ body {
   font-family: 'Libre Baskerville';
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 header {
@@ -22,6 +23,8 @@ header {
 
 .logo {
   height: 88px; /* Adjust the height as needed */
+  flex-grow: 1; /* Distribute the available space equally */
+  text-align: center; /* Center the logo image */
 }
 
 nav ul {
@@ -36,6 +39,8 @@ nav ul {
 
 nav ul li {
   margin-right: 30px;
+  flex-grow: 1; /* Distribute the available space equally */
+  text-align: center; /* Center the text within each list item */
 }
 
 nav ul li a {
@@ -46,8 +51,6 @@ nav ul li a {
   margin: 0 10px; /* Add spacing between navigation links using margin */
   padding: 100px; /* Add padding to create visual spacing */
 }
-
-
 
 nav ul li a:hover {
   color: #CDA962; /* Change the color on hover as desired */
@@ -78,6 +81,7 @@ nav ul li a:hover {
   margin-bottom: 20px;
   text-align: left;
 }
+
 .hero-image {
   position: absolute;
   top: 0;
@@ -89,6 +93,7 @@ nav ul li a:hover {
   background-position: center;
 }
 
+/* Media Query for screens with a maximum width of 768px */
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column;
@@ -98,12 +103,29 @@ nav ul li a:hover {
   
   nav ul {
     margin: 10px 0;
+    justify-content: center; /* Center navigation links horizontally */
   }
+  
   nav ul li {
     margin: 0 5px; /* Adjust the margin for mobile devices */
+    flex-grow: initial; /* Reset flex-grow to its initial value */
   }
   
   .logo {
     margin-bottom: 10px;
+    text-align: center; /* Center the logo image on smaller screens */
+    flex-grow: initial; /* Reset flex-grow to its initial value */
+  }
+  
+  .hero-content {
+    width: 100%; /* Adjust the width to occupy the full width */
+    left: 0;
+    padding: 0; /* Remove padding */
+    text-align: center;
+    position: static; /* Remove absolute positioning */
+  }
+  
+  .hero-image {
+    display: none; /* Hide the hero image on smaller screens */
   }
 }
