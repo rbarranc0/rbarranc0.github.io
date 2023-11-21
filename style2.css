@@ -162,9 +162,28 @@ nav li{ margin: 1.2rem; }
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
   }
-  .logo{
-    grid-column: 2 / 3;
+  /* Add these styles for the logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+
+.logo a img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add a media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .logo {
+    max-width: 80%; /* Adjust as needed */
   }
+}
+
+  
+  
   nav{
     grid-column: 3 / 4;
     all: unset;
