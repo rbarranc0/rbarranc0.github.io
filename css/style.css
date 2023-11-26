@@ -50,9 +50,9 @@ body{
 
   /* Theme Colors */
   --red: #D79233;
-  --blue: #2A2B2A;
+  --blue: #ffffff;
   --white: #cdcfd7;
-  --black: #2A2B2A;
+  --black: #000000;
 
   /* Theme Fonts */
   --font-family-1: tahoma, arial, verdana;
@@ -69,6 +69,7 @@ body{
 body {
   font-family: var(--font-family-1);
   text-transform: capitalize;
+  background-color: #2A2B2A;
 }
 
 a {
@@ -556,19 +557,19 @@ footer p {
 
 @keyframes change-content {
   0% {
-    content: "web developement";
+    content: "Interior Painting";
   }
 
   30% {
-    content: "app developement";
+    content: "Exterior Painting";
   }
 
   60% {
-    content: "networking";
+    content: "Cabinet Sparying";
   }
 
   100% {
-    content: "Digital Marketing";
+    content: "And More";
   }
 }
 
