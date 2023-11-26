@@ -51,11 +51,11 @@ body{
 :root {
 
   /* Theme Colors */
-  --red: #D79233;
+  --red: #dc9b40;
   --blue: #ffffff;
   --white: #cdcfd7;
-  --black: #000000;
-  --Grey:  rgb(44, 43, 43);
+  --black: #8d8d8d;
+  --Grey:  rgb(36, 36, 36);
 
   /* Theme Fonts */
   --font-family-1: 'Libre Baskerville', serif;
@@ -374,7 +374,7 @@ header {
 **********************************************************/
 .service-col-1 {
   width: 30%;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .service-col-1 h1 {
@@ -461,11 +461,11 @@ header {
 
 
 /**********************************************************
-  Galleery Section Start
+  Gallery Section Start
 **********************************************************/
 .gallery-box {
   width: 30%;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
   border-radius: 3rem;
   height: 22rem;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.45);
@@ -530,20 +530,20 @@ header {
 **********************************************************/
 footer {
   padding: 2rem 0;
-  background-color: var(--blue);
+  background-color: #dc9b40;
   text-align: center;
 }
 
 footer h1 {
   font-size: 2.5rem;
-  color: var(--red);
+  color: white;
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
 
 footer p {
   font-size: 1.2rem;
-  color: var(--white);
+  color: white;
 }
 
 /**********************************************************
