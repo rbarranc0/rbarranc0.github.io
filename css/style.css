@@ -54,7 +54,7 @@ body{
   --red: #dc9b40;
   --blue: #ffffff;
   --white: #cdcfd7;
-  --black: #8d8d8d;
+  --black: #000000;
   --Grey:  rgb(36, 36, 36);
   --NiceBlue: #202c39;
   --PastelYellow: #f2d492;
@@ -240,8 +240,10 @@ header {
   Menubar Start
 **********************************************************/
 .menubar ul li a {
-  color: var(--black);
+  color:var(--blue);
   font-size: 1.8rem;
+  font-weight: bold;
+
 }
 
 .menubar ul li {
@@ -384,7 +386,7 @@ header {
 }
 
 .service-col-1 h1 {
-  color: var(--red);
+  color: var(--PastelYellow);
   font-size: 3rem;
   margin-bottom: 1rem;
 }
@@ -459,9 +461,13 @@ header {
 }
 
 .about-right h2 {
-  color: var(--red);
+  color: var(--PastelYellow);
   font-size: 3rem;
   margin-bottom: 2rem;
+}
+.about-right p{
+  color: #cdcfd7;
+  text-transform:none;
 }
 
 /**********************************************************
@@ -500,7 +506,7 @@ header {
 
 
 /**********************************************************
-  Galleery Section End
+  Gallery Section End
 **********************************************************/
 
 
@@ -513,7 +519,7 @@ header {
 }
 
 #contact>h1 {
-  color: var(--blue);
+  color: var(--PastelYellow);
   margin-bottom: 2rem;
   text-align: left;
   font-size: 3rem;
@@ -543,13 +549,13 @@ header {
 **********************************************************/
 footer {
   padding: 2rem 0;
-  background-color: #dc9b40;
+  background-color: var(--PastelYellow);
   text-align: center;
 }
 
 footer h1 {
   font-size: 2.5rem;
-  color: white;
+  color: var(--NiceBlue);
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
@@ -574,7 +580,7 @@ footer p {
 
 @keyframes change-content {
   0% {
-    content: "Interior Painting";
+    content: "Residential Painting";
   }
 
   30% {
@@ -582,7 +588,7 @@ footer p {
   }
 
   60% {
-    content: "Cabinet Spaying";
+    content: "Cabinet Spraying";
   }
 
   100% {
