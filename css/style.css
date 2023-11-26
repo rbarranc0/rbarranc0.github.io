@@ -75,9 +75,7 @@ body {
   font-family: var(--font-family-1);
   text-transform: capitalize;
   background-color: var(--NiceBlue);
-  background-image: url();
-
-
+  background-image: url(https://github.com/rbarranc0/rbarranc0.github.io/blob/main/images/UpdatedBlueNoiseBackground.jpg?raw=true);
 }
 
 a {
@@ -213,8 +211,8 @@ header {
   Navbar Start
 **********************************************************/
 .navbar {
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: .1rem;
   border-bottom: 2px solid rgba(0, 0, 0, 0.144);
 }
 
@@ -336,7 +334,7 @@ header {
   color: var(--red);
   font-size: 4rem;
   text-transform: capitalize;
-  animation: change-content 10s linear infinite;
+  animation: change-content 10s ease infinite;
 }
 
 
@@ -398,6 +396,10 @@ header {
   text-align: center;
   transition: all .3s linear;
   border-radius: 15px;
+  text-transform: none;
+  font-weight: bold;
+  
+
 }
 
 @media (hover:hover) {
@@ -549,7 +551,7 @@ header {
 **********************************************************/
 footer {
   padding: 2rem 0;
-  background-color: var(--PastelYellow);
+  background-color: var(--black);
   text-align: center;
 }
 
@@ -563,6 +565,8 @@ footer h1 {
 footer p {
   font-size: 1.2rem;
   color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /**********************************************************
@@ -584,7 +588,7 @@ footer p {
   }
 
   30% {
-    content: "Exterior Painting";
+    content: "Power Washing";
   }
 
   60% {
