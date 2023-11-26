@@ -1,6 +1,8 @@
 /**********************************************************
   Reset Default Properties Start
 **********************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -53,9 +55,10 @@ body{
   --blue: #ffffff;
   --white: #cdcfd7;
   --black: #000000;
+  --Grey:  rgb(44, 43, 43);
 
   /* Theme Fonts */
-  --font-family-1: tahoma, arial, verdana;
+  --font-family-1: 'Libre Baskerville', serif;
 }
 
 /**********************************************************
@@ -69,7 +72,7 @@ body{
 body {
   font-family: var(--font-family-1);
   text-transform: capitalize;
-  background-color: #2A2B2A;
+  background-color: var(--Grey);
 }
 
 a {
@@ -434,6 +437,7 @@ header {
 
 .about-left img {
   width: 100%;
+  border-radius: 0.75rem;
 }
 
 /**********************************************************
@@ -461,7 +465,7 @@ header {
 **********************************************************/
 .gallery-box {
   width: 30%;
-  margin-bottom: 3.5rem;
+  margin-bottom: 0.5rem;
   border-radius: 3rem;
   height: 22rem;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.45);
@@ -565,7 +569,7 @@ footer p {
   }
 
   60% {
-    content: "Cabinet Sparying";
+    content: "Cabinet Spaying";
   }
 
   100% {
