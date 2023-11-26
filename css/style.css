@@ -374,6 +374,10 @@ header {
 /**********************************************************
   Services Boxes
 **********************************************************/
+#services {
+  margin-bottom: -100px;
+  margin-top: -100px
+}
 .service-col-1 {
   width: 30%;
   padding: 1rem;
@@ -433,6 +437,9 @@ header {
 /**********************************************************
   About Left
 **********************************************************/
+#about {
+  margin-bottom: -100px;
+}
 .about-left {
   width: 50%;
 }
@@ -465,10 +472,13 @@ header {
 /**********************************************************
   Gallery Section Start
 **********************************************************/
+#gallery {
+  margin-bottom: -100px;
+}
 .gallery-box {
   width: 30%;
   margin-bottom: 1.5rem;
-  border-radius: 3rem;
+  border-radius: .45rem;
   height: 22rem;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.45);
   overflow: hidden;
@@ -499,6 +509,7 @@ header {
 **********************************************************/
 #contact {
   text-align: center;
+  margin-top: -100px;
 }
 
 #contact>h1 {
