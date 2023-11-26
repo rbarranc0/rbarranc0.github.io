@@ -56,6 +56,8 @@ body{
   --white: #cdcfd7;
   --black: #8d8d8d;
   --Grey:  rgb(36, 36, 36);
+  --NiceBlue: #202c39;
+  --PastelYellow: #f2d492;
 
   /* Theme Fonts */
   --font-family-1: 'Libre Baskerville', serif;
@@ -72,7 +74,7 @@ body{
 body {
   font-family: var(--font-family-1);
   text-transform: capitalize;
-  background-color: var(--Grey);
+  background-color: var(--NiceBlue);
 }
 
 a {
