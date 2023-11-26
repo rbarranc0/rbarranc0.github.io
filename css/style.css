@@ -75,6 +75,9 @@ body {
   font-family: var(--font-family-1);
   text-transform: capitalize;
   background-color: var(--NiceBlue);
+  background-image: url();
+
+
 }
 
 a {
@@ -440,7 +443,7 @@ header {
   margin-bottom: -100px;
 }
 .about-left {
-  width: 50%;
+  width: 45%;
 }
 
 .about-left img {
@@ -479,13 +482,13 @@ header {
   margin-bottom: -100px;
 }
 .gallery-box {
-  width: 30%;
+  width: 26.5%;
   margin-bottom: 1.5rem;
   border-radius: .45rem;
   height: 22rem;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.45);
   overflow: hidden;
-  border: 2px solid transparent;
+  border: 13px solid transparent;
   transition: all 0.3s linear;
   cursor: pointer;
 }
