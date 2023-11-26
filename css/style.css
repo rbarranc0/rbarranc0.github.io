@@ -211,29 +211,24 @@ header {
 **********************************************************/
 .navbar {
   padding-top: 1.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
   border-bottom: 2px solid rgba(0, 0, 0, 0.144);
 }
 
 /**********************************************************
   Logo Start
 **********************************************************/
+/* Style for logo within the navbar */
+.logo-box img {
+  max-width: 25%;
+  height: auto;
+  display: block;
+}
+
 .logo-box .logo {
   color: var(--blue);
   font-size: 2.8rem;
   position: relative;
-}
-
-.logo-box .logo::after {
-  position: absolute;
-  content: "";
-  width: 30%;
-  height: 0.8rem;
-  border-radius: 1rem;
-  background-color: var(--red);
-  bottom: -50%;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 /**********************************************************
@@ -381,7 +376,7 @@ header {
   margin-top: -100px
 }
 .service-col-1 {
-  width: 30%;
+  width: 20%;
   padding: 1rem;
 }
 
